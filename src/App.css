@@ -1,0 +1,44 @@
+.catagories {
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+.list {
+  height: 120px;
+  padding: 5px;
+  cursor: grab;
+  display: flex;
+  flex-direction: column;
+}
+.list img {
+  height: 60px;
+  width: 60px;
+  display: inline-block;
+  border-radius: 50% 50%;
+  background-color: yellow;
+}
+.list span {
+  margin: auto;
+  white-space: nowrap;
+  width: 50px;
+  height: auto;
+  font-size: smaller;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+}
+.image {
+  height: 60px;
+  width: 60px;
+  margin-top: 0;  
+}
+a {
+  height: 120px;
+}
